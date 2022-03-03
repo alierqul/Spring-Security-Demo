@@ -1,0 +1,60 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+/UI/.vscode/
+
+# dependencies
+/UI/node_modules
+/UI/.pnp
+/UI/.pnp.js
+
+# testing
+/UI/coverage
+
+# production
+/UI/build
+
+# misc
+/UI/.DS_Store
+/UI/.env.local
+/UI/.env.development.local
+/UI/.env.test.local
+/UI/.env.production.local
+
+/UI/npm-debug.log*
+/UI/yarn-debug.log*
+/UI/yarn-error.log*
+

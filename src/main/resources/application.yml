@@ -1,0 +1,13 @@
+spring:
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:test
+jwt:
+  auth:
+    app: Spring-Security-App
+    secret_key: testkey#secret@12334
+    expires_in: 3600
+
+
